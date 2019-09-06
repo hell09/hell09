@@ -110,6 +110,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<verson>edge-SNAPSHOT</verson>
+			<scope>provided</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
