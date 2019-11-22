@@ -13,7 +13,8 @@ public class SplitDm {
 				"15901789935 05901789935 \n"; 
 		String str1 = "85901789935\n 15901789935 05901789935 \n";
 		
-		String str2 = "中国;美国；+;;；人民；;";
+		String str2 = "中国;美国；+;;人民；;";
+//		String str2 = "中国;美国；+;;；人民；;";
 //		String str2 = ";；；;";
 		
 		String[] split = str2.split(";+|；+");
