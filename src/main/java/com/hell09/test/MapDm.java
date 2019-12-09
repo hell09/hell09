@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+import com.google.common.collect.Lists;
+
 
 public class MapDm {
 
@@ -28,12 +30,19 @@ public class MapDm {
 		mm.put(3, 2);
 		System.out.println("555: " + mm.get(5));
 		
-		
-		
 		System.out.println("原始数据: " + mm);
 		System.out.println("原始数据values: " + mm.values());
 		System.out.println("删除不存在key: " + mm.remove(4444444));
 		
+		
+		List<Long> ll = Lists.newArrayList();
+		List<Long> ll0 = null;
+		for (Long l : ll ) {
+			System.out.println("000 " + l);
+		}
+		for (Long l : ll0 ) {
+			System.out.println("111 " + l);
+		}
 		
 		
 		
