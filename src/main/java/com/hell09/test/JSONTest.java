@@ -13,7 +13,6 @@ public class JSONTest {
 		System.out.println(p1);
 		System.out.println(JSON.toJSONString(p1));
 		
-		
 	}
 
 	class People {

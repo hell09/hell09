@@ -16,10 +16,9 @@ public class Hell09Application {
 	public static void main(String[] args) {
 //		SpringApplication.run(Hell09Application.class, args);
 		
-		Assert.notNull("");
-		Assert.notNull("", "");
-		Preconditions.checkNotNull("");
-		
+//		Assert.notNull("");
+//		Assert.notNull("", "");
+//		Preconditions.checkNotNull("");
 		
 		SpringApplication springApplication = new SpringApplication(Hell09Application.class);
 //		springApplication.setBanner(Banner.Mode);

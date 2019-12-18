@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.alibaba.fastjson.JSONPath;
 
-public class JSONpathDm {
+public class JSONpathDM {
 
 	public static void main(String[] args) {
 		

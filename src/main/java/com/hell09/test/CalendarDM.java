@@ -8,7 +8,7 @@ import java.util.Date;
  * @author Fayes
  * @date 18-8-8 下午5:05
  */
-public class CalendarDm {
+public class CalendarDM {
 
     public static void main(String[] args) {
 

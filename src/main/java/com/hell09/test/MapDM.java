@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 import com.google.common.collect.Lists;
 
 
-public class MapDm {
+public class MapDM {
 
 	public static void main(String[] args) {
 		Map<String, Integer> m = new HashMap<>();

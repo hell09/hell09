@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.logging.log4j.util.Strings;
 
 
-public class SplitDm {
+public class SplitDM {
 
 	public static void main(String[] args) {
 		String str = "85901789935\n" + 

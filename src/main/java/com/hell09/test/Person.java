@@ -6,7 +6,8 @@ import java.util.List;
 public class Person implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	private Long id;
+//	private Long id;	// 会报错
+	Long id;
 	String name;
 	List<Integer> nums;
 
@@ -56,15 +57,15 @@ public class Person implements Serializable {
 		return "Person [id=" + id + ", name=" + name + ", nums=" + nums + "]";
 	}
 
-	public static void main(String[] args) {
-		Person p = new Person();
-		
-		System.out.println(p + " " + p.hashCode());
-		p = new Person();
-		System.out.println(p + " " + p.hashCode());
-		
-		
-		
-	}
+//	public static void main(String[] args) {
+//		Person p = new Person();
+//		
+//		System.out.println(p + " " + p.hashCode());
+//		p = new Person();
+//		System.out.println(p + " " + p.hashCode());
+//		
+//		
+//		
+//	}
 	
 }

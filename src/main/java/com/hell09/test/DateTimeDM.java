@@ -17,7 +17,7 @@ import java.util.Date;
  * @author Fayes
  * @date 18-8-8 下午5:05
  */
-public class DateTimeDm {
+public class DateTimeDM {
 
     public static void main(String[] args) {
 //    	dateTimeTest();
